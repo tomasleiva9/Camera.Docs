@@ -5,7 +5,7 @@ Vue.use(VueRouter)
 
 function load (component) {
   // '@' is aliased to src/components
-  return () => import(`@/${component}.vue`)
+  return () => System.import(`@/${component}.vue`)
 }
 
 export default new VueRouter({
@@ -25,7 +25,9 @@ export default new VueRouter({
   scrollBehavior: () => ({ y: 0 }),
 
   routes: [
-    { path: '/', component: load('Hello') },
+    { path: '/', component: load('auth') },
+
+    { path: '/cnh', component: load('cnh') },
 
     // Always leave this last one
     { path: '*', component: load('Error404') } // Not found
