@@ -87,11 +87,11 @@ export default {
       this.$refs.modal.close();
     },
     encaminhar () {
-      const mensagem =  [this.doc.person.name,
-                        this.doc.person.cpf,
-                        this.doc.person.birthdate,
-                        this.doc.person.fathersName,
-                        this.doc.person.numRegistro].join('\n\r')
+      const mensagem =  [ this.doc.person.name,
+                          this.doc.person.cpf,
+                          this.doc.person.birthdate,
+                          this.doc.person.fathersName,
+                          this.doc.person.numRegistro ].join('\n\r')
       window.plugins.socialsharing.share(mensagem)
     },
     cameraSuccess (img) {
