@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-packageName="app.boxnet.boxdocumentos" android-versionCode="1" id="app.boxnet.boxdocumentos" ios-CFBundleVersion="1.0.0" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Boxnet Documentos</name>
     <description>
         Verificação de documentos por fotografia
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
+    <author email="sistemas@boxnet.com.br" href="http://boxnet.com.br">
         Boxnet team
     </author>
     <content src="index.html" />
