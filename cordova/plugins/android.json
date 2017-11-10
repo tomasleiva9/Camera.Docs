@@ -8,27 +8,27 @@
     },
     "installed_plugins": {
         "cordova-plugin-camera": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+            "PACKAGE_NAME": "app.boxnet.boxdocumentos"
         },
         "cordova-plugin-file-transfer": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+            "PACKAGE_NAME": "app.boxnet.boxdocumentos"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+            "PACKAGE_NAME": "app.boxnet.boxdocumentos"
         },
         "cordova-plugin-x-socialsharing": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+            "PACKAGE_NAME": "app.boxnet.boxdocumentos"
         }
     },
     "dependent_plugins": {
         "cordova-plugin-compat": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+            "PACKAGE_NAME": "app.boxnet.boxdocumentos"
         },
         "cordova-plugin-file": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+            "PACKAGE_NAME": "app.boxnet.boxdocumentos"
         },
         "es6-promise-plugin": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+            "PACKAGE_NAME": "app.boxnet.boxdocumentos"
         }
     }
 }
